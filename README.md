@@ -51,14 +51,16 @@ python manage.py compilemessages -l pt_BR<br>
 
 # Template
 
-`<form action="/" method="get"><br>
-&nbsp;&nbsp;&nbsp;<select name="language"><br>
-&nbsp;&nbsp;&nbsp;&nbsp;{% for lang in languages %}<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<option   value="{{ lang.1 }}">{{ lang.0 }}</option><br>
-&nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}<br>
-&nbsp;&nbsp;&nbsp;</select><br>
-&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar"><br>
-</form>`<br>
+```
+<form action="/" method="get">
+    <select name="language">
+        {% for lang in languages %}
+            <option   value="{{ lang.1 }}">{{ lang.0 }}</option>
+        {% endfor %}<br>
+    </select>
+    <input type="submit" value="Enviar">
+</form>
+```
 
 # license
 
