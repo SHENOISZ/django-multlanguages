@@ -42,12 +42,14 @@ python manage.py compilemessages -l pt_BR<br>
 
 # Values in request
 
-`c = RequestContext(request, {`<br>
-&nbsp;&nbsp;&nbsp;`'id': request.id,`<br>
-&nbsp;&nbsp;&nbsp;`'host': request.host,`<br>
-&nbsp;&nbsp;&nbsp;`'initials': request.initials,`<br>
-&nbsp;&nbsp;&nbsp;`'languages': request.languages`<br>
-`})`<br>
+```
+c = RequestContext(request, {
+    'id': request.id,
+    'host': request.host,
+    'initials': request.initials,
+    'languages': request.languages
+})
+```
 
 # Template
 
