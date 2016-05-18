@@ -51,14 +51,14 @@ c = RequestContext(request, {<br>
 
 # Template
 
-<form action="/" method="get"><br>
-&nbsp;&nbsp;&nbsp;<select name="language"><br>
+&lsaquo;form action="/" method="get"&rsaquo;<br>
+&nbsp;&nbsp;&nbsp;&lsaquo;select name="language"&rsaquo;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{% for lang in languages %}<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<option   value="{{ lang.1 }}">{{ lang.0 }}</option><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;option   value="{{ lang.1 }}"&rsaquo;{{ lang.0 }}&lsaquo;/option&rsaquo;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}<br>
-&nbsp;&nbsp;&nbsp;</select><br>
-&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar"><br>
-</form><br>
+&nbsp;&nbsp;&nbsp;&lsaquo;/select&rsaquo;<br>
+&nbsp;&nbsp;&nbsp;&lsaquo;input type="submit" value="Enviar"&rsaquo;<br>
+&lsaquo;/form><br>
 
 # license
 
