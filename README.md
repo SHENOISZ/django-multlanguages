@@ -2,7 +2,7 @@
 
 ## Settings
 
-### Install middleware class
+#### Install middleware class
 
 ```
 MIDDLEWARE_CLASSES = (
@@ -21,12 +21,12 @@ MULTLAGUAGES = (
 ```
 
 ## Create variable HOSTS_DEV
-### Port 8000 or any other for localhost test and devs, default 80
+#### Port 8000 or any other for localhost test and devs, default 80
 
 HOSTS_DEV = ['http', '8000'] 
 
 ## Create yours locale for translations 
-###Exemplo:
+####Exemplo:
 
 python manage.py makemessage -l en<br>
 python manage.py makemessage -l es<br>
