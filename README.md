@@ -64,7 +64,7 @@ c = RequestContext(request, {
             <option   value="{{ lang.1 }}">{{ lang.0 }}</option>
         {% endfor %}<br>
     </select>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Send">
 </form>
 ```
 
