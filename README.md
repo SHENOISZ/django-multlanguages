@@ -58,7 +58,7 @@ c = RequestContext(request, {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}<br>
 &nbsp;&nbsp;&nbsp;&lsaquo;/select&rsaquo;<br>
 &nbsp;&nbsp;&nbsp;&lsaquo;input type="submit" value="Enviar"&rsaquo;<br>
-&lsaquo;/form><br>
+</form><br>
 
 # license
 
