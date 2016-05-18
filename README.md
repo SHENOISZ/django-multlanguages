@@ -4,17 +4,21 @@
 
 # Install middleware class
 
-MIDDLEWARE_CLASSES = (<br>
-&nbsp;'muiltlanguages.middleware.locale.MultLanguageMiddleware',<br>
-)<br>
+```
+MIDDLEWARE_CLASSES = (
+    'muiltlanguages.middleware.locale.MultLanguageMiddleware',
+)
+```
 
 # Create variable MULTLAGUAGES
 
-MULTLAGUAGES = (<br>
-&nbsp;&nbsp;&nbsp;('en', 'en.test.com'),<br>
-&nbsp;&nbsp;&nbsp;('es', 'es.test.com'),<br>
-&nbsp;&nbsp;&nbsp;('pt-BR', 'pt.test.com')<br>
-)<br>
+```
+MULTLAGUAGES = (
+    ('en', 'en.test.com'),
+    ('es', 'es.test.com'),
+    ('pt-BR', 'pt.test.com')
+)
+```
 
 # Create variable HOSTS_DEV
 # Port 8000 or any other for localhost test and devs, default 80
