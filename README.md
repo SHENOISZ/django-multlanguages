@@ -42,23 +42,23 @@ python manage.py compilemessages -l pt_BR<br>
 
 # Values in request
 
-c = RequestContext(request, {<br>
-&nbsp;&nbsp;&nbsp;'id': request.id,<br>
-&nbsp;&nbsp;&nbsp;'host': request.host,<br>
-&nbsp;&nbsp;&nbsp;'initials': request.initials,<br>
-&nbsp;&nbsp;&nbsp;'languages': request.languages<br>
-})<br>
+`c = RequestContext(request, {`<br>
+&nbsp;&nbsp;&nbsp;`'id': request.id,`<br>
+&nbsp;&nbsp;&nbsp;`'host': request.host,`<br>
+&nbsp;&nbsp;&nbsp;`'initials': request.initials,`<br>
+&nbsp;&nbsp;&nbsp;`'languages': request.languages`<br>
+`})`<br>
 
 # Template
 
-`<form action="/" method="get">`<br>
-&nbsp;&nbsp;&nbsp;&lsaquo;select name="language"&rsaquo;<br>
+`<form action="/" method="get"><br>
+&nbsp;&nbsp;&nbsp;<select name="language"><br>
 &nbsp;&nbsp;&nbsp;&nbsp;{% for lang in languages %}<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;option   value="{{ lang.1 }}"&rsaquo;{{ lang.0 }}&lsaquo;/option&rsaquo;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<option   value="{{ lang.1 }}">{{ lang.0 }}</option><br>
 &nbsp;&nbsp;&nbsp;&nbsp;{% endfor %}<br>
-&nbsp;&nbsp;&nbsp;&lsaquo;/select&rsaquo;<br>
-&nbsp;&nbsp;&nbsp;&lsaquo;input type="submit" value="Enviar"&rsaquo;<br>
-`</form>`<br>
+&nbsp;&nbsp;&nbsp;</select><br>
+&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar"><br>
+</form>`<br>
 
 # license
 
