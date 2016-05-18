@@ -1,6 +1,6 @@
 # Django-muiltlanguages #
 
-# Settings #
+# Settings
 
 # Install middleware class
 
