@@ -25,7 +25,7 @@ MULTLAGUAGES = (
 
 HOSTS_DEV = ['http', '8000'] 
 
-## Create yours locale for translations 
+## Create their locale for translations 
 ####Exemplo:
 
 python manage.py makemessage -l en<br>
