@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multlanguages/__init__.py
+multlanguages.egg-info/PKG-INFO
+multlanguages.egg-info/SOURCES.txt
+multlanguages.egg-info/dependency_links.txt
+multlanguages.egg-info/top_level.txt
+multlanguages/middleware/__init__.py
+multlanguages/middleware/locale.py

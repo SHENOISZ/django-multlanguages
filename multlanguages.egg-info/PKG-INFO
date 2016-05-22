@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: multlanguages
+Version: 0.8.0
+Summary: django-multlanguages for Python Django
+Home-page: https://github.com/SHENOISZ/django-multlanguages
+Author: SHENOISZ
+Author-email: marcelo.net.system@gmail.com
+License: django-multlanguages
+Description: UNKNOWN
+Keywords: translations,hosts,language
+Platform: Any
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
