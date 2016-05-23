@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+django_mult_languages.egg-info/PKG-INFO
+django_mult_languages.egg-info/SOURCES.txt
+django_mult_languages.egg-info/dependency_links.txt
+django_mult_languages.egg-info/top_level.txt
+mult_languages/__init__.py
+mult_languages/middleware/__init__.py
+mult_languages/middleware/locale.py

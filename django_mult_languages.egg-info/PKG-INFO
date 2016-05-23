@@ -1,14 +1,15 @@
 Metadata-Version: 1.1
-Name: multlanguages
-Version: 1.0
+Name: django-mult-languages
+Version: 0.8.0
 Summary: Django package util translation
 Home-page: https://github.com/SHENOISZ/django-multlanguages
 Author: SHENOISZ
 Author-email: marcelo.net.system@gmail.com
 License: BSD
-Description: UNKNOWN
+Description: Django package util translation
+        
+Keywords: translation,translations,hosts
 Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
 Classifier: Environment :: Web Environment
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License

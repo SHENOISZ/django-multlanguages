@@ -1,7 +1,0 @@
-README.rst
-setup.py
-multlanguages.egg-info/PKG-INFO
-multlanguages.egg-info/SOURCES.txt
-multlanguages.egg-info/dependency_links.txt
-multlanguages.egg-info/not-zip-safe
-multlanguages.egg-info/top_level.txt
