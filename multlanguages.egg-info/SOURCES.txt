@@ -1,11 +1,7 @@
-MANIFEST.in
-README.md
-setup.cfg
+README.rst
 setup.py
-multlanguages/__init__.py
 multlanguages.egg-info/PKG-INFO
 multlanguages.egg-info/SOURCES.txt
 multlanguages.egg-info/dependency_links.txt
+multlanguages.egg-info/not-zip-safe
 multlanguages.egg-info/top_level.txt
-multlanguages/middleware/__init__.py
-multlanguages/middleware/locale.py

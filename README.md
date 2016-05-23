@@ -68,8 +68,4 @@ c = RequestContext(request, {
 </form>
 ```
 
-## license
-
-(MIT)
-
 
