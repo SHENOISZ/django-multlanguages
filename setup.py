@@ -1,20 +1,21 @@
 #!/usr/bin/python
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-PACKAGE = "multlanguages"
-NAME = "multlanguages"
+PACKAGE = "django-mult-languages"
+NAME = "django-mult-languages"
 DESCRIPTION = "Django package util translation"
 AUTHOR = "SHENOISZ"
 AUTHOR_EMAIL = "marcelo.net.system@gmail.com"
 URL = "https://github.com/SHENOISZ/django-multlanguages"
-VERSION = __import__(PACKAGE).__version__
+VERSION = __import__("mult_languages").__version__
 
 setup(
     name=NAME,
+    packages = find_packages(),
     version=VERSION,
     description=DESCRIPTION,
     long_description=read("README.rst"),
@@ -24,7 +25,6 @@ setup(
     url=URL,
     # packages=["tests.*", "tests"],
     classifiers=[
-        "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
@@ -32,5 +32,5 @@ setup(
         "Programming Language :: Python",
         "Framework :: Django",
     ],
-    zip_safe=False,
+    keywords = ["translation", "translations", "hosts"],
 )
