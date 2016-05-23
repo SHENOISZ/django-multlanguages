@@ -68,4 +68,7 @@ c = RequestContext(request, {
 </form>
 ```
 
+## License
+
+(BSD)
 
