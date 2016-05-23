@@ -1,4 +1,4 @@
-# Django-multlanguages #
+# Django-mult-languages #
 
 ## Settings
 
