@@ -6,7 +6,7 @@
 
 ```
 MIDDLEWARE_CLASSES = (
-    'multlanguages.middleware.locale.MultLanguageMiddleware',
+    'mult_languages.middleware.locale.MultLanguageMiddleware',
 )
 ```
 
