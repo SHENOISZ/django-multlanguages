@@ -1,5 +1,11 @@
 # Django-mult-languages #
 
+## Install
+
+```
+pip install django-mult-languages
+```
+
 ## Settings
 
 #### Install middleware class
