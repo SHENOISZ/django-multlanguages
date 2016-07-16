@@ -8,6 +8,14 @@ pip install django-mult-languages
 
 ## Settings
 
+```
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+
+LANGUAGE_CODE = 'en-us'
+```
+
 #### Install middleware class
 
 ```
@@ -20,7 +28,8 @@ MIDDLEWARE_CLASSES = (
 
 ```
 MULTLAGUAGES = (
-    ('en', 'en.test.com'),
+    ('en-us', 'www.test.com'),
+    ('en-us', 'en.test.com'),
     ('es', 'es.test.com'),
     ('pt-BR', 'pt.test.com')
 )
@@ -34,9 +43,9 @@ HOSTS_DEV = ['http', '8000']
 ## Create their locale for translations 
 ####Exemplo:
 
-python manage.py makemessage -l en<br>
-python manage.py makemessage -l es<br>
-python manage.py makemessage -l pt_BR<br>
+python manage.py makemessages -l en-us<br>
+python manage.py makemessages -l es<br>
+python manage.py makemessages -l pt_BR<br>
 
 configure the django.po<br>
 
@@ -74,7 +83,4 @@ c = RequestContext(request, {
 </form>
 ```
 
-## License
-
-(BSD)
 
