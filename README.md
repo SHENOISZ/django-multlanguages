@@ -43,10 +43,11 @@ HOSTS_DEV = ['http', '8000']
 ## Create their locale for translations 
 ####Exemplo:
 
-python manage.py makemessages -l en-us<br>
-python manage.py makemessages -l es<br>
-python manage.py makemessages -l pt_BR<br>
-
+```
+python manage.py makemessages -l en-us
+python manage.py makemessages -l es
+python manage.py makemessages -l pt_BR
+```
 configure the django.po<br>
 
 run the command:
@@ -55,9 +56,11 @@ python manage.py compilemessages<br>
 
 or<br>
 
-python manage.py compilemessages -l en<br>
-python manage.py compilemessages -l es<br>
-python manage.py compilemessages -l pt_BR<br>
+```
+python manage.py compilemessages -l en
+python manage.py compilemessages -l es
+python manage.py compilemessages -l pt_BR
+```
 
 ## Values in request
 
