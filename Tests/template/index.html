@@ -1,0 +1,23 @@
+<!DOCTYPE html> {% load i18n %}
+
+<html lang="en">
+
+<head>
+    <title>Django mult languages</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>{% trans 'Congratulations' %}</h1>
+    <br>
+    <form action="/" method="get">
+        <select name="language">
+            {% for lang in languages %}
+                <option   value="{{ lang.1 }}">{{ lang.0 }}</option>
+            {% endfor %}<br>
+        </select>
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
