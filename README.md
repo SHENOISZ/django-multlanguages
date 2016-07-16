@@ -51,8 +51,9 @@ python manage.py makemessages -l pt_BR
 configure the django.po<br>
 
 run the command:
-
-python manage.py compilemessages<br>
+```
+python manage.py compilemessages
+```
 
 or<br>
 
